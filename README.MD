@@ -29,5 +29,5 @@ The Retail Sales Forecasting project uses historical sales data to forecast futu
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/Subratkb02/Retail_Sales_Forecasting_using_AWS-forecast.git>
    cd Retail_Sales_Forecasting
