@@ -148,7 +148,7 @@ Replace:
 
 ---
 
-## 6. 🗂️ File Structure
+## 6. File Structure
 
 ```
 Retail_Sales_Forecasting/
@@ -167,7 +167,7 @@ Retail_Sales_Forecasting/
 
 ---
 
-## 7. 🚀 Usage Summary
+## 7. Usage Summary
 
 1. Clone repository and set up environment
 2. Add raw CSV data to `data/`
@@ -177,7 +177,7 @@ Retail_Sales_Forecasting/
 
 ---
 
-## 8. 🤝 Contributing
+## 8. Contributing
 
 ### 8.1 Fork & Clone
 
@@ -205,13 +205,13 @@ Open a PR from your fork to the main repository.
 
 ---
 
-## 9. 📜 License
+## 9. License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 10. 🙏 Acknowledgements
+## 10. Acknowledgements
 
 * [AWS Forecast Documentation](https://docs.aws.amazon.com/forecast/)
 * [Pandas](https://pandas.pydata.org/)
