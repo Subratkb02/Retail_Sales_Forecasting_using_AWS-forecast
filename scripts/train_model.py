@@ -31,6 +31,6 @@ def train_model(bucket, data_path):
     estimator.fit({'train': data_path})
 
 if __name__ == "__main__":
-    bucket = 'your-bucket-name'
+    bucket = 'retailsbucketpro'
     data_path = f's3://{bucket}/data/processed_sales_data.csv'
     train_model(bucket, data_path)

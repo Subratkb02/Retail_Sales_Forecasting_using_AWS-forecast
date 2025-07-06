@@ -18,6 +18,6 @@ def deploy_model(bucket):
     return predictor
 
 if __name__ == "__main__":
-    bucket = 'your-bucket-name'
+    bucket = 'retailsbucketpro'
     predictor = deploy_model(bucket)
     predictor.delete_endpoint()
