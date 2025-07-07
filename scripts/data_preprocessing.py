@@ -23,11 +23,8 @@ if __name__ == "__main__":
 
     raw_data_path = Path('../data/Sales_data.csv')
     processed_data_path = Path('../data/processed_sales_data.csv')
-
- 
     if not raw_data_path.exists():
         raise FileNotFoundError(f"The file {raw_data_path} does not exist.")
-
     sales_data = load_and_preprocess_data(raw_data_path)
 
     sales_data.to_csv(processed_data_path)
