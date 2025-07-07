@@ -6,17 +6,13 @@ import os
 def get_sagemaker_role():
     """Get the SageMaker execution role, with fallback for local development."""
     try:
-        # Try to get execution role if running in SageMaker environment
         return get_execution_role()
     except ValueError:
-        # Fallback for local development - use environment variable or default
         role_arn = os.environ.get('SAGEMAKER_ROLE_ARN')
         if role_arn:
             return role_arn
         else:
-            # You need to replace this with your actual SageMaker execution role ARN
-            # Create a role in IAM with SageMaker permissions and replace the ARN below
-            return "arn:aws:iam::767828725519:role/SageMakerExecutionRole"
+            return "arn:aws:iam::767828725519:role/Sagemaker_Retail"
 
 def train_model(bucket, data_path):
     sagemaker_session = sagemaker.Session()
